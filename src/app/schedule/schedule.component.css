@@ -1,0 +1,188 @@
+.navbar-content {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    padding: 0px;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.navbar{
+    background-color:rgb(64,76,108);
+    height: 40px;
+    margin: 0;
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.top-left-nav {
+    display: flex;
+    gap: 10px;
+    /* left:30%; */
+    margin: 0 200px; 
+    position: relative;
+    font-size: x-large;
+    height: 100%;
+}
+.top-left-nav button {
+    background: none;
+    border: none;
+    padding: 0 20px;
+    /* font: inherit; */
+    cursor: pointer;
+    outline: inherit;
+    font-size: 2rem;
+    font-weight: bold; 
+    color: silver;
+    transition: background-color 0.3s, color 0.3s; 
+    text-decoration: underline;
+}
+.top-left-nav button.active{
+    background-color: silver;
+    color: rgb(64,76,108);
+}
+.background-image {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    background-image: url('../../assets/mountains2.jpeg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    z-index: -1;
+}
+.heading-container {
+display: flex; 
+align-items: center; 
+display: flex;
+top:15px;
+margin: 0 200px; 
+margin-bottom: 20px;
+}
+.p-content{
+position: relative;
+margin-left: 20px;
+padding: 10px;
+margin-top: 30px;
+font-family: 'Noto Sans', sans-serif;
+
+}
+.big-heading {
+
+font-size: 4rem;
+margin-right: 10px;
+color: rgb(151, 151, 154);
+margin-bottom: 10px;
+
+}
+.side-heading {
+font-size: 2rem;
+font-weight: bold;
+color: rgb(48, 68, 111);
+margin-bottom: 0px;
+
+}
+ body{
+    margin: 0;
+ }
+ 
+.footer-container{
+    bottom: 0;
+    position:fixed;
+    width: 100%;
+    background-color:rgb(64,76,108);
+
+}
+
+
+
+.footer-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 200px;
+    color: rgb(105, 121, 163);
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.footer-content {
+    display: inline-flex;
+    align-items: center;
+    /* gap: 10px; */
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.footer-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets/foooter-icon.jpeg');
+    background-size: cover;
+}
+
+.footer-text {
+    font-size: 14px;
+    position: absolute;
+    margin-right: 200px;
+    font-weight: bold;
+    font-style: italic;
+    flex-grow: 1; 
+    right: 0px;
+    text-align: right; 
+}
+
+.schedule-container {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: rgb(55, 38, 38);
+    z-index: 2; 
+    padding: 40px 0;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.schedule-heading {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+}
+
+table, th, td {
+    border: none;
+}
+td{
+    padding: 10px;
+}
+.schedule-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.schedule-date {
+
+}
+
+.schedule-starting-point {
+    margin-left: 20px; 
+}

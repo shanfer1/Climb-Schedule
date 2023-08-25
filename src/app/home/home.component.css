@@ -1,0 +1,97 @@
+.home-container {
+    position: relative; 
+    height: 100vh; 
+  }
+  .logo {
+    left: 20%;
+    position: absolute;
+    top:20px;
+}
+.logo img {
+    height: 40px;
+}
+/* Styles for desktop */
+.accordion-toggle {
+    display: none; /* Hide the toggle buttons by default */
+}
+
+.accordion-content {
+    display: none; /* Hide the content by default */
+}
+
+/* Styles for mobile */
+@media (max-width: 767px) {
+    .accordion-toggle {
+        display: block;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .accordion-content {
+        display: none;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .accordion-content a {
+        color: white;
+        text-decoration: underline;
+    }
+}
+
+  .background-image-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/mountains.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.6;  */
+  }
+  
+  .top-right-nav-1 {
+    position: absolute;
+    top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white; 
+    left:65%;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+  }
+
+  .home-link-1{
+    color: white; 
+    text-decoration: underline;
+    font-style: italic; 
+    position: absolute;
+    top:10px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+
+
+}
+  .top-right-nav-1 a {
+    display: inline-block;
+    margin-right: 55px;
+    font-style: italic; 
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white; /* Change font color to white */
+    text-decoration: underline;
+
+  }
+  
+  .top-right-nav-1 a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
+  
+  .top-right-nav-1 a.active {
+    font-weight: bold;
+    color: green;
+  }
+  

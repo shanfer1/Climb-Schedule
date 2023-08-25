@@ -1,0 +1,20 @@
+# Climb Scehdule
+
+A brief description of what the project does.
+## dependencies
+1. Npm and Node
+
+npm install --legacy-peer-deps
+## Installation
+
+1. Clone the repository.
+2. Install dependencies using the following command:
+npm install --legacy-peer-deps
+
+## Usage
+
+To start the application, run the following command:
+ng serve  or npm run start
+
+
+Open a web browser and navigate to `http://localhost:4200`.
